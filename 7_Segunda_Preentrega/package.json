@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "entrega2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "mongoose": "^7.5.0",
+    "mongoose-paginate-v2": "^1.7.31",
+    "nodemon": "^3.0.1",
+    "socket.io": "^4.7.2"
+  }
+}
